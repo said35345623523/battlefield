@@ -1,0 +1,671 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+.menu {
+	background: #000;
+	width: 100%;
+	position: fixed;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	z-index: 1;
+}
+ul img{
+	position: relative;
+	top: 12px;
+}
+.menu ul {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	list-style: none;
+}
+.menu a{
+	text-decoration: none;
+	color: #d8d8d8;
+	margin-right: 30px;
+	margin-left: 20px;
+	text-transform: uppercase;
+	display: block;
+}
+.menu a:hover {
+	color: #f17f1a;
+}
+.menu li {
+	position: relative;
+	top: 20px;
+}
+.shop_games {
+	cursor: pointer;
+	width: 185px;
+	height: 40px;
+	background: #f17f1a;
+	margin: 10px 10px;
+	
+}
+.text_shop {
+   color: #fff;
+   text-align: center;
+   margin-top: 10px;
+   font-weight: 700;
+}
+header {
+	background: url(../images/bg/bf5/bg.png) no-repeat fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 1050px;
+}
+.container {
+	width: 1000px;
+	margin: auto;
+}
+.title_game {
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 250px;
+}
+.title_game_text {
+	width: 640px;
+	margin: auto;
+	color: #eaebec;
+	font-size: 20px;
+	line-height: 28px;
+	
+}
+.button {
+	display: block;
+	width: 223px;
+	height: 54px;
+	border: 2px solid #eaebec;
+	border-radius: 2px;
+	margin: auto;
+	text-decoration: none;
+	color: #eeefef;
+	position: relative;
+	top: 20px;
+}
+.button_text {
+	line-height: 60px;
+	font-weight: 500;
+
+}
+.button:hover {
+	width: 235px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	background: #f17f1a;
+	border: 2px solid #f17f1a;
+}
+.games_container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.game {
+	width: 315px;
+	height: 315px;
+	margin-right: 20px;
+	
+}
+.BF5 {
+	background: url(../images/GamesImg/BfV/battlefield5.png) no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.BF1 {
+	background: url(../images/GamesImg/Bf1/battlefield1.png) no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.BF4 {
+	background: url(../images/GamesImg/Bf4/battlefield4.png) no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.game_title_img{
+	text-align: center;
+	display: block;
+	position: relative;
+	top: 150px;
+
+}
+.game_title_img img{
+	width: 200px;
+	height: 50px;
+
+}
+.game_title_img img:hover {
+	width: 250px;
+	height: 80px;
+	position: relative;
+	bottom: 30px;
+}
+.BF5 img {
+	height: 24px;
+	margin-top: 10px;
+
+}
+.BF5 img:hover {
+	height: 40px;
+	position: relative;
+	bottom: 15px;
+}
+.last_title_head {
+	padding-top: 20px;	
+	margin: auto;
+	text-align: center;
+	color: #fff;
+	letter-spacing: 3px;
+}
+.last_title_head h1 {
+	font-weight: normal;
+}
+.content_chapter {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	
+}
+.sidebar_container {
+	width: 500px;
+	margin: auto;
+	float: right;
+}
+.sidebar_container_two {
+	width: 400px;
+	float: left;
+}
+.sidebar_content_two {
+	width: 100%;
+	height: 560px;
+}
+.sidebar_img_two {
+	background: url(../images/GamesImg/BfV/content_bf5.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.sidebars_right {
+	width: 100%;
+
+}
+.sidebar_content_one {
+	width: 100%;
+	height: 320px;
+}
+.sidebar_img_one {
+	background: url(../images/GamesImg/BfV/content_bf5_2.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.sidebar_content_three {
+	width: 100%;
+	height: 240px;
+}
+.sidebar_img_three {
+	background: url(../images/GamesImg/BfV/content_bf5_3.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.sidebar_chapter_two  {
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 3px;
+	margin-top: 450px;
+
+}
+.sidebar_chapter_two a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+.sidebar_chapter_two a:hover {
+	color: #f17f1a;
+}
+.sidebar_chapter_one {
+	margin-top: 200px;
+	margin-left: 20px;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.sidebar_chapter_one a {
+	text-decoration: none;
+	color: #fff;
+}
+.sidebar_chapter_one a:hover {
+	color: #f17f1a;
+}
+.sidebar_chapter_three {
+	margin-top: 120px;
+	margin-left: 20px;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.sidebar_chapter_three a {
+	text-decoration: none;
+	color: #fff;
+}
+.sidebar_chapter_three a:hover {
+	color: #f17f1a;
+}
+.news_content {
+	background: url(../images/bg/bf5/bg_content2.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+	overflow: hidden;
+	
+}
+.news_title {
+	text-align: center;
+	position: relative;
+	top: 50px;
+	font-weight: normal;
+	font-size: 40px;
+	color: #fff;
+	letter-spacing: 3px;
+	font-family: serif;
+}
+.sidebar_news {
+	position: relative;
+	top: 80px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.news_card {
+	display: block;
+	width: 317px;
+	height: 417px;
+	background: #fff;
+	text-decoration: none;
+	color: gray;
+
+
+}
+.news_card-img {
+	display: block;
+	width: 100%;
+	height: 178px;
+}
+.img_one {
+	background: url(../images/bg/bf5/news_bg.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.img_two {
+	background: url(../images/bg/bf5/news_bg2.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.img_three {
+	background: url(../images/bg/bf5/news_bg3.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.news_card_info {
+	position: relative;
+	top: 40px;
+	display: block;
+	width: 276px;
+	height: 157px;
+	margin: auto;
+	font-size: 20px;
+	letter-spacing: 2px;
+
+}
+.button_all_news {
+	text-decoration: none;
+	margin: auto;
+	display: block;
+	width: 147px;
+	height: 53px;
+	border: 2px solid #eaebec;
+	border-radius: 3px;
+	color: #eeefef;
+	position: relative;
+	top: 100px;
+	text-align: center;
+}
+.button_all_news:hover {
+	width: 160px;
+	color: #000;
+	background: #f17f1a;
+	border: 2px solid #f17f1a;
+	font-size: 20px;
+}
+.button_all_news_text {
+	position: relative;
+	top: 17px;
+	font-size: 18px;
+}
+.two {
+	position: relative;
+	top: 175px;
+}
+.video_trailer {
+	background: url(../images/bg/bf5/bg_trailer.png) no-repeat ;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+}
+.button_two {
+	background: #000;
+	border: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	position: relative;
+	top: 300px;
+}
+.video_trailer_content {
+	background: url(../images/bg/bf5/bgContentTrailer.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height:600px;
+}
+.video_trailer_card {
+	display: block;
+	width: 317px;
+	height: 417px;
+	background: #000;
+	text-decoration: none;
+	color: #fff;
+}
+.video_trailer-img {
+	display: block;
+	width: 100%;
+	height: 178px;
+}
+.Video_img_one {
+	background: url(../images/bg/bf5/bgTrailerImg.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+}
+.Video_img_two {
+	background: url(../images/bg/bf5/bgTrailerImg2.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+}
+.Video_img_three {
+	background: url(../images/bg/bf5/bgTrailerImg3.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100%;
+}
+.button_video-trailer {
+	position: relative;
+	top: 100px;
+	text-align: center;
+	line-height: 55px;
+	font-size: 18px;
+}
+.game_shop_container {
+	height: 1240px;
+}
+.title_subscription {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	top: 120px;
+}
+.title_subscription_text {
+	width: 450px;
+	font-weight: normal;
+	font-size: 30px;
+	color: #fff;
+}
+.button-bg {
+	width: 147px;
+	height: 50px;
+	border: 2px solid #f17f1a;
+	border-radius: 3px;
+	background: #f17f1a;
+}
+.button_subscription {
+	display: block;
+	text-decoration: none;
+	color: #eeefef;
+	font-size: 18px;
+	text-align: center;
+	line-height: 50px;
+}
+.info_games_battlefield5 {
+	position: relative;
+	top: 150px;
+	color: #eeefef;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.info_battlefield5_text  {
+	width: 650px;
+	position: relative;
+	top: 150px;
+}
+.info_battlefield5_text h1 {
+	line-height: 55px;
+	font-size: 40px;
+	font-weight: normal;
+}
+.info_battlefield5_text p {
+	margin-top: 30px;
+	line-height: 30px;
+	font-size: 18px;
+}
+.buy_game_sidebar {
+	position: relative;
+	top: 30px;
+	color: #000;
+	width: 340px;
+	height: 500px;
+	background: #fff;
+}
+.edition {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 15px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	font-size: 16px;
+	cursor: pointer;
+	
+}
+.edition_deluxe {
+	margin-right: 15px;
+}
+.edition_deluxe-price {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 9px 25px;
+}
+.edition_deluxe_text {
+	line-height: 30px;
+	color: #000;
+	font-weight: normal;
+}
+.buyimg {
+	width: 90px;
+	height: 130px;
+}
+.button_buy {
+	text-align: center;
+	line-height: 55px;
+	font-size: 18px;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	width: 270px;
+	height: 54px;
+	border: 2px solid #f17f1a;
+	border-radius: 2px;
+	background: #f17f1a;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+.button_xboxone {
+	background: green;
+	border: 2px solid green;
+	border-radius: 2px;
+}
+.button_ps {
+	background: darkblue;
+	border: 2px solid darkblue;
+	border-radius: 2px;
+}
+table {
+	position: relative;
+	top: 320px;
+	color: #fff;
+	border-spacing: 0;
+}
+table td{
+	padding: 4px 0 4px 15px;
+	border-bottom: 1px solid gray;
+	position: relative;
+}
+.just_text {
+	position: relative;
+	top: 470px;
+	color: #fff;
+	line-height: 20px;
+	font-size: 16px;
+}
+footer{
+	width: 100%;
+	height: 100%;
+	background: #252525;
+}
+.footer {
+	padding-top: 30px;
+}
+.title_text_footer {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+ .title_text_footer h4{
+ 	display: block;
+ 	color: #fff;
+ 	font-weight: normal;
+ 	font-size: 13px;
+ }
+.footer_menu {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.footer_menu ul {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	list-style: none;
+}
+.footer_menu li {
+	padding-right: 40px;
+	padding-top: 20px;
+}
+.footer_menu a{
+	text-decoration: none;
+	color: gray;
+	font-size: 14px;
+}
+.footer_menu a:hover{
+	color: #f17f1a;
+}
+.footer_social {
+	padding-top: 20px;
+	padding-left: 60px;
+}
+.footer_social a {
+	padding-right: 20px;
+	color: #f17f1a;
+}
+.line {
+	width: 100%;
+	 border-top: 1px solid #8f8f8f;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.foot_logo {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-between;
+}
+.logo_company {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;	
+	margin-top: 12px;
+
+}
+.foot_logo a{
+	display: block;
+	margin-right: 40px;
+}
+.uprise {
+	padding-top: 23px;
+}
+.footer_text {
+	width: 700px;
+	color: gray;
+	margin-top: 50px;
+	font-size: 12px;
+	line-height: 25px;
+	letter-spacing: 0.01px;
+}
